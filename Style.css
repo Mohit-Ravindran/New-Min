@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+
+    /* display: flex; */
+    /* margin-top: 80px; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 2px solid black;
+    max-width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 80px auto;
+    background: rgb(255, 227, 208);
+    border-radius: 20px;
+}
+
+body {
+    background: url(https://images.pexels.com/photos/428429/pexels-photo-428429.jpeg?cs=srgb&dl=pexels-spencer-selover-428429.jpg&fm=jpg);
+    background-size: cover;
+}
+
+.container1 h1 {
+    /* flex-basis: 100%; */
+    margin: 30px;
+}
+
+.container1 button {
+    margin: 20px;
+}
+
+.flex-result {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 2px solid black;
+    max-width: 70%;
+
+}

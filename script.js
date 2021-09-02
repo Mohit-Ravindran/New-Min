@@ -10,19 +10,24 @@ function ageindays() {
     h1.appendChild(textanswer);
     document.getElementById('flex-result').appendChild(h1);
      }
-
- else{
-    var bindays = "Mohit Ravindran";
-    var h1 = document.createElement('h1');
-    var textanswer = document.createTextNode( 'Invalid Soul');
-    h1.setAttribute('id', 'ageindays');
-    h1.appendChild(textanswer);
-    document.getElementById('flex-result').appendChild(h1);
      
+     else{
+         var bindays = "Mohit Ravindran";
+         var h1 = document.createElement('h1');
+         var textanswer = document.createTextNode( 'Invalid Soul');
+         h1.setAttribute('id', 'ageindays');
+         h1.appendChild(textanswer);
+         document.getElementById('flex-result').appendChild(h1);
+         
+         
+        }
+        
+    }
     
-}
-
-
-
- }
     
+    
+    function reset() {
+    
+        document.getElementById('flex-result').remove();
+        
+    }
